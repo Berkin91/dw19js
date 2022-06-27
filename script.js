@@ -9,6 +9,25 @@ Nous allons apprebdre
 
 //Les variables
 
+/*
 
+1.Pourquoi les variables ? pour stocker des données EX: Nom d'un jeu = "jeu du plus ou du moins";
+2.Une variable : le nom de la variable et la valeur de la variable : Tiroir qui porte un nom
+EX: Tiroir A <= 10 valeur 
+Le numérique ne contient pas de guillemets
+Additionner des nombre ça fonctionne
+Addition une chaine de caractere avec autre choses fait de la concetanation
+*/
+a=10 // 10 rentre dans la variable A
+b=50 // PAREIL
+c="80" // PAREIL
+b=90 // B va contenir 90
+console.error(a+parseInt(c));
+console.error(typeof(c));
+console.error(b);
 
-console.error("test");
+// EXO : LES VARIABLES
+SEL=100;
+SUCRE=80;
+console.error("Nous avons du SEL en Q. de " + SEL + " Nous avons du sucre en quantité de " + SUCRE);
+

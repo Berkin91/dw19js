@@ -37,5 +37,16 @@ SEL=SUCRE;
 SUCRE=z;
 console.error("Nous avons du SEL en Q. de " + SEL + " Nous avons du sucre en quantité de " + SUCRE);
 
+/*
+EXO 2 :
+1. Récuperer l'age de l'utilisateur via la commande prompt
+2. Affichez l'age de l'utilisateur dans la console
+3. Affiche quel age aura l'utilisateur dans 2 ans dans la console
+*/
+person = prompt("Quel age avez-vous ?");
+age = 2
+console.log(person);
+console.log(age +parseInt(person));
+
 
 

@@ -45,8 +45,8 @@ EXO 2 :
 */
 person = prompt("Quel age avez-vous ?");
 age = 2
-console.log(person);
-console.log(age +parseInt(person));
+console.log("L'utilisateur a " + person + " ans");
+console.log("dans 2 ans l'utilisateur aura " , age +parseInt(person) , " ans");
 
 
 

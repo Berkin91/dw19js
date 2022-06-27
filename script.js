@@ -43,10 +43,23 @@ EXO 2 :
 2. Affichez l'age de l'utilisateur dans la console
 3. Affiche quel age aura l'utilisateur dans 2 ans dans la console
 */
-person = prompt("Quel age avez-vous ?");
+/* person = prompt("Quel age avez-vous ?");
 age = 2
 console.log("L'utilisateur a " + person + " ans");
 console.log("dans 2 ans l'utilisateur aura " , age +parseInt(person) , " ans");
+*/
+/*
+EXO 3 :
+1. Demander un prix d'un article via la commande prompt
+2. Affichez dans la console : l'article vaut 45 euros. 45 étant le prix
+3. Affichez dans la console : l'article vaut 50 euros TTC. prix * 1.2
+*/
+prix = prompt("Quel est le prix de cet article ?" , "45");
+console.log("l'article vaut " + prix + " euros .");
+a= (parseInt(prix) * 1.2);
+console.log("l'article vaut " + a + " euros TTC");
+
+ 
 
 
 

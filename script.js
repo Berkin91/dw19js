@@ -31,7 +31,10 @@ SEL=100;
 SUCRE=80;
 console.error("Nous avons du SEL en Q. de " + SEL + " Nous avons du sucre en quantité de " + SUCRE);
 
+z=SEL;
 SEL=SUCRE;
+SUCRE=z;
+
 
 console.error("Nous avons du SEL en Q. de " + SEL + " Nous avons du sucre en quantité de " + SUCRE);
 
